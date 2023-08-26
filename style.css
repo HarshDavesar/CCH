@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+   background-repeat: no-repeat;
+   background-size: 100%;
+    font-family: 'Chivo', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Chivo', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+
+
+}
+
+.logo a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(242, 255, 0);
+
+}
+
+nav ul {
+    font-size: 20px;
+}
+
+ul li a {
+    flex-wrap: wrap;
+    padding: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline;
+    font-weight: bold;
+    display: flexbox;
+
+}
+
+
+
+
+ul li a:hover {
+
+
+    border-color: black;
+    border-bottom: 3px rgb(255, 255, 255) solid;
+    transition: ease-out;
+    color: blue;
+
+}
+
+/* card1 */
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 50px 150px;
+    height: 350px;
+    box-shadow: 8px 8px 8px rgb(87, 85, 85);
+    width: 500px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(128, 132, 134);
+    transition: transform 0.3s ease-in-out;
+    opacity:0.8;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    
+}
+
+
+
+.head {
+    text-align: center;
+
+}
+
+.foot {
+    text-overflow: hidden;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 5px;
+
+}
+
+.foot p {
+    margin-bottom: 20px;
+}
+
+.rbutton {
+
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+
+}
+
+.rbutton:hover {
+
+    background: black;
+    transition: ease-in-out;
+    transition: 0.5s;
+    height: 50px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+
+}
+
+/* card2 */
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 150px;
+    margin-top: -406px;
+    height: 350px;
+    box-shadow: 8px 8px 8px rgb(87, 85, 85);
+    width: 500px;
+    color: black;
+    background-color: rgb(128, 132, 134);
+    transition: transform 0.3s ease-in-out;
+    opacity:0.8;
+}
+
+.card2:hover {
+    transform: scale(1.1);
+}
+
+.head {
+    text-align: center;
+
+}
+
+.foot {
+
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.foot p {
+    margin-bottom: 20px;
+}
+
+.rbutton {
+
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+
+}
+
+.rbutton:hover {
+
+    background: black;
+    transition: ease-in-out;
+    transition: 0.5s;
+    height: 50px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+
+}
+
+/* card3 */
+
+.card3 {
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 50px 150px;
+    height: 350px;
+    box-shadow: 8px 8px 8px rgb(87, 85, 85);
+    width: 500px;
+    color: black;
+    background-color: rgb(128, 132, 134);
+    transition: transform 0.3s ease-in-out;
+    opacity:0.8;
+}
+
+.card3:hover {
+    transform: scale(1.1);
+}
+
+.head {
+    text-align: center;
+
+}
+
+.foot {
+
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.foot p {
+    margin-bottom: 20px;
+}
+
+.rbutton {
+
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+
+}
+
+.rbutton:hover {
+
+    background: black;
+    transition: ease-in-out;
+    transition: 0.5s;
+    height: 50px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+
+}
+
+/* card4 */
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 150px;
+    margin-top: -409px;
+    height: 350px;
+    box-shadow: 8px 8px 8px rgb(87, 85, 85);
+    width: 500px;
+    color: black;
+    background-color: rgb(128, 132, 134);
+    transition: transform 0.3s ease-in-out;
+    opacity:0.8;
+}
+
+.card4:hover {
+
+
+    transform: scale(1.1);
+
+}
+
+.head {
+    text-align: center;
+
+}
+
+.foot {
+
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.foot p {
+    margin-bottom: 20px;
+}
+
+.rbutton {
+
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+
+}
+
+.rbutton:hover {
+
+    background: black;
+    transition: ease-in-out;
+    transition: 0.5s;
+    height: 50px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+
+}
